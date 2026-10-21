@@ -1,0 +1,170 @@
+{
+ "components": {
+  "dokumen": {
+   "version": "1.0.0",
+   "url": "https://github.com/ameyaali/omnidesk-components/releases/download/components-2026.10/omnidesk-dokumen-1.0.0.zip",
+   "size": 22179996,
+   "sha256": "7fba5eff350d1289af7a84639a26013ae7b4227afdf986fe61cbb3ef2ba54256"
+  },
+  "ocr": {
+   "version": "1.0.1",
+   "url": "https://github.com/ameyaali/omnidesk-components/releases/download/components-2026.10/omnidesk-ocr-1.0.1.zip",
+   "size": 61487573,
+   "sha256": "04d3bff32d863679b839fb94a87b209e96cd1590d18b68d7bc9ff25e83308be6"
+  },
+  "stems": {
+   "version": "1.0.0",
+   "url": "https://github.com/ameyaali/omnidesk-components/releases/download/components-2026.10/omnidesk-stems-1.0.0.zip",
+   "size": 233648281,
+   "sha256": "016a6adf3ba64d106143b27296c3e1e2345470f174969a2108486a0591a47aff"
+  },
+  "transkrip": {
+   "version": "1.0.0",
+   "url": "https://github.com/ameyaali/omnidesk-components/releases/download/components-2026.10/omnidesk-transkrip-1.0.0.zip",
+   "size": 289511201,
+   "sha256": "c0ceca7225bbb8e6c59d690b95eafbcd691d0b3b00508a656e9e60460d2b43cf"
+  }
+ },
+ "models": {
+  "whisper-base": {
+   "license": "MIT",
+   "size": 147882941,
+   "files": [
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/config.json",
+     "path": "config.json",
+     "sha256": "56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a",
+     "size": 2309
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/tokenizer.json",
+     "path": "tokenizer.json",
+     "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+     "size": 2203239
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/vocabulary.txt",
+     "path": "vocabulary.txt",
+     "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+     "size": 459861
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/model.bin",
+     "path": "model.bin",
+     "sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+     "size": 145217532
+    }
+   ]
+  },
+  "whisper-small": {
+   "license": "MIT",
+   "size": 486212372,
+   "files": [
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/config.json",
+     "path": "config.json",
+     "sha256": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828",
+     "size": 2370
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json",
+     "path": "tokenizer.json",
+     "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+     "size": 2203239
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt",
+     "path": "vocabulary.txt",
+     "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+     "size": 459861
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/model.bin",
+     "path": "model.bin",
+     "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+     "size": 483546902
+    }
+   ]
+  },
+  "whisper-medium": {
+   "license": "MIT",
+   "size": 1530571735,
+   "files": [
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/config.json",
+     "path": "config.json",
+     "sha256": "3622a2ddc41ec0e0fd4e68c13c6830f03b90c38d89aaad184de02c8c642cf807",
+     "size": 2257
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/tokenizer.json",
+     "path": "tokenizer.json",
+     "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+     "size": 2203239
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/vocabulary.txt",
+     "path": "vocabulary.txt",
+     "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+     "size": 459861
+    },
+    {
+     "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/model.bin",
+     "path": "model.bin",
+     "sha256": "9b45e1009dcc4ab601eff815b61d80e60ce3fd8c74c1a14f4a282258286b51ae",
+     "size": 1527906378
+    }
+   ]
+  },
+  "diarization": {
+   "license": "MIT (segmentasi pyannote 3.0), Apache-2.0 (pengenal suara 3D-Speaker)",
+   "size": 35239608,
+   "files": [
+    {
+     "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-segmentation-models/sherpa-onnx-pyannote-segmentation-3-0.tar.bz2",
+     "path": "segmentation",
+     "extract": "tar.bz2",
+     "sha256": "24615ee884c897d9d2ba09bb4d30da6bb1b15e685065962db5b02e76e4996488",
+     "size": 6958444
+    },
+    {
+     "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-recongition-models/3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced.onnx",
+     "path": "embedding.onnx",
+     "sha256": "aa3cfc16963a10586a9393f5035d6d6b57e98d358b347f80c2a30bf4f00ceba2",
+     "size": 28281164
+    }
+   ]
+  },
+  "demucs-4": {
+   "license": "MIT",
+   "size": 84141911,
+   "files": [
+    {
+     "url": "https://dl.fbaipublicfiles.com/demucs/hybrid_transformer/955717e8-8726e21a.th",
+     "path": "hub/checkpoints/955717e8-8726e21a.th",
+     "sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4",
+     "size": 84141911
+    }
+   ]
+  },
+  "demucs-6": {
+   "license": "MIT",
+   "size": 54996327,
+   "files": [
+    {
+     "url": "https://dl.fbaipublicfiles.com/demucs/hybrid_transformer/5c90dfd2-34c22ccb.th",
+     "path": "hub/checkpoints/5c90dfd2-34c22ccb.th",
+     "sha256": "34c22ccb381c6f9fdbf324f04e1e2fe21aaaf293f5ded163a162697ff9a02ddd",
+     "size": 54996327
+    }
+   ]
+  }
+ },
+ "app": {
+  "version": "0.1.1",
+  "url": "https://github.com/ameyaali/omnidesk-components/releases/download/v0.1.1/OmniDesk-Setup-0.1.1.exe",
+  "size": 72921531,
+  "sha256": "dc8e5349c5ff861761f68373eb99ba0a08b19739a0c57942b44cdea84cee0383",
+  "notes": "Cek pembaruan dari dalam aplikasi, komponen dan model diunduh online (dengan izin), OCR tanpa PyMuPDF."
+ }
+}
